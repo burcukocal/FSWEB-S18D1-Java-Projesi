@@ -28,7 +28,7 @@ public class Burger {
     private String name;
 
     @Column(name="price")
-    @DecimalMin("20")
+    @DecimalMin("20En")
     private double price;
 
     @Column(name="is_vegan")
